@@ -6,12 +6,13 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   // substituir a imagem
-    if(html.classList.contains('light')) {
+    if (html.classList.contains("light")) {
   // se tiver light mode, adicionar imagem ligth
-      img.setAttribute('src', './assets/avatar.png')
+      img.setAttribute("src","./assets/avatar.png")
     } else {
+
   // se tiver sem ligth mode, manter a imagem normal   
-      img.setAttribute('src', './assets/avatar-ligth.png')
+      img.setAttribute("src","./assets/avatar-light.png")
     }
 }
 
